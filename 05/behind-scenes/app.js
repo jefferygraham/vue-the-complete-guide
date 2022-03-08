@@ -43,7 +43,7 @@ const app = Vue.createApp({
 app.mount("#app");
 
 setTimeout(() => {
-  app.unmount();
+  app.unmount(``);
 }, 5000);
 
 const app2 = Vue.createApp({
